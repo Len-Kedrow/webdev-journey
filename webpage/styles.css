@@ -1,0 +1,61 @@
+/*background-color: #F1F1F1;*/
+
+
+
+h1{color: #627254;
+    display: inline-block;
+    background-color: #F1F1F1;
+    padding: 10 em; 
+    margin: 10 em;
+    border: thick double black;
+    
+    column-span: none;
+
+}
+#abovethefold{
+    display: inline-block;
+    background-image: url("./images/smlluniform.JPG");  
+    border-right-width: 100%;
+    border-radius: 5%;
+    height: 800px; 
+}
+
+p, h2{
+    display: block;
+    width: 45%;
+    background-image: url("./images/camo.jpeg");
+    padding: 1em;
+    opacity:90%; 
+
+}
+
+.interest {
+    border: thick double black;
+    float: left;
+    padding 10em; 
+    margin 50em;
+
+}
+
+.homes, .JOBS{
+    border: thick double black;
+
+    padding 10em; 
+    margin 50em;
+
+}
+
+h3{
+display: block;
+
+}
+
+
+p{
+    color: black;
+
+}
+
+
+ 
+
