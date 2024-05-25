@@ -4,7 +4,8 @@ body{
     background-color: black;
 }
 
-h1{color: #627254;
+h1{
+    color: #627254;
     display: inline-block;
     background-color: #F1F1F1;
     padding: 10 px; 
@@ -12,19 +13,18 @@ h1{color: #627254;
     border: thick double black;
     
     column-span: none;
+}
 
 h3{
     display: block;
         
     }
-        
-        
-    p{
+            
+p{
     color: black;
         
     }
 
-}
 #abovethefold{
     display: inline-block;
     background-image: url("./images/smlluniform.JPG");  
@@ -56,7 +56,6 @@ h3{
 .homes, .JOBS{
     border: thick double black;
     background-color: #DDDDDD;
-
     padding 10em; 
     margin 50em;
 
@@ -73,36 +72,37 @@ h3{
 }
 
 .box{
-border-style: groove;
-border: thich black; 
-margin: 10px;
-width: fit-content;
-height: fit-content;
-padding: 10px;
-text-align: center; 
+    border-style: groove;
+    border: thich black; 
+    margin: 10px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    text-align: center; 
 
 }
 
 .maththing{
-border: thick double #EEEEEE;
-width: 400px;
-justify-content: center;
-margin-left: 35%; 
-margin-top: 3%;
+    border: thick double #EEEEEE;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    margin-left: 35%; 
+    margin-top: 3%;
 }
 
 .gridcontainer{
-display: grid;
-grid-template-columns: 100px 100px 100px 100px;
-grid-template-rows: 100px 100px 100px 100px;
-background-color: #DDDDDD;
-justify-content: center;
-width: 400px;
-text-align: center;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    background-color: #DDDDDD;
+    justify-content: center;
+    width: 400px;
+    text-align: center;
 
 }
 
-.screen{
+#screen{
     border-style: groove;
     border: thich black; 
     background-color: #EEEEEE;
@@ -110,5 +110,6 @@ text-align: center;
 
 }   
 
- 
 
+
+}  

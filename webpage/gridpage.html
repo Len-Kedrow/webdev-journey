@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width"="device=width, initial-scale=1.0">
     <title>GridPage</title>
-        <link
-            rel="stylesheet"
-            href="styles.css"
-        />
-    
+        <link  rel="stylesheet"  href="styles.css"/>
+        <script async type="text/javascript"  src="index.js" charset="UTF-8"></script>
     </head>
 
 
@@ -17,29 +14,38 @@
 
       
 
-<div class="maththing">
-<div class="gridcontainer">
-    <div class="screen"><p>TExt here maybe</p></div> 
-    <p class="box">1</p>
-    <p class="box">2</p>
-    <p class="box">3</p>
-    <p class="box">+</p>
-    <p class="box">4</p>
-    <p class="box">5</p>
-    <p class="box">6</p>
-    <p class="box">-</p>
-    <p class="box">7</p>
-    <p class="box">8</p>
-    <p class="box">9</p>
-    <p class="box">*</p>
-    <p class="box">=</p>
-    <p class="box">0</p>
-    <p class="box">.</p>
-    <p class="box">/</p>
+    
+
+
+<div class="maththing" draggable="true">
+    <div class="gridcontainer">
+        <div id="screen"><p>TExt here maybe</p></div>
+        <p id="one" class="box">1</p>
+        <p id="two" class="box">2</p>
+        <p id="three" class="box">3</p>
+        <p id="plus" class="box">+</p>
+        <p id="four" class="box">4</p>
+        <p id="five" class="box">5</p>
+        <p id="six" class="box">6</p>
+        <p id="minus" class="box">-</p>
+        <p id="seven" class="box">7</p>
+        <p id="eight" class="box">8</p>
+        <p id="nine" class="box">9</p>
+        <p id="times" class="box">*</p>
+        <p id="equal" class="box">=</p>
+        <p id="zero" class="box">0</p>
+        <p id="clear" class="box">C</p>
+        <p id="divide" class="box">/</p>
 
     </div>
+
+    <!--this screen2 is for testing funcionality delete after testing. I feel like this is bad 
+    way to do this testing but at this point in my journey it is what I know. feel free to point
+    me towards informations that will fill in this gap-->
+    <div id="screen2"><p>This screen is for testing</p></div>
+    <!-- Delete everything between this and the comment above-->
 </div>
-    
+
 </body>
 
 </html>
