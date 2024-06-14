@@ -48,16 +48,16 @@ p{
     background-color: #DDDDDD;
     border: thick double black;
     float: left;
-    padding 10px; 
-    margin 50px;
+    padding: 10px; 
+    margin: 50px;
 
 }
 
 .homes, .JOBS{
     border: thick double black;
     background-color: #DDDDDD;
-    padding 10em; 
-    margin 50em;
+    scroll-padding-left: 10em; 
+    margin: 50em;
 
 }
 
@@ -73,7 +73,7 @@ p{
 
 .box{
     border-style: groove;
-    border: thich black; 
+    border: thick black; 
     margin: 10px;
     width: fit-content;
     height: fit-content;
@@ -110,6 +110,12 @@ p{
 
 }   
 
+#screen2{
+    border-style: groove;
+    border: thich black; 
+    background-color: #EEEEEE;
+    grid-column: span 4;
+
+}   
 
 
-}  
